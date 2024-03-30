@@ -5,7 +5,7 @@ import './../styles/App.css';
 const App = () => {
 
   const weather = {Temperature: 25, conditions: "Sunny"};
-  const temperatureColor = weather.temperature > 20 ? 'red' : 'blue';
+  const temperatureColor = weather.Temperature > 20 ? 'red' : 'blue';
   return (
     <div id = "main">
        <h2>Weather Report</h2>
